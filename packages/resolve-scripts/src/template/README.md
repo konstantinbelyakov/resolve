@@ -94,7 +94,9 @@ resolve-app/
     favicon.ico
   tests/
     testcafe_runner.js
-    e2e-tests/
+    functional/
+      index.test.js
+    unit/
       index.test.js
 ```
 

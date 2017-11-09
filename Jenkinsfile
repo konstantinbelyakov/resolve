@@ -65,7 +65,7 @@ pipeline {
 
                         npm run flow
                         npm run test
-                        npm run test:e2e -- --browser=path:/chromium
+                        npm run test:functional -- --browser=path:/chromium
                     """
                 }
             }
@@ -85,7 +85,7 @@ pipeline {
 
                         npm run flow
                         npm run test
-                        npm run test:e2e -- --browser=path:/chromium
+                        npm run test:functional -- --browser=path:/chromium
                     """
                 }
             }
